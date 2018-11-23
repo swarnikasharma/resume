@@ -1,0 +1,222 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+
+\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+
+\begin{document}
+
+\header{Swarnika }{Sharma }           % Your name
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\section{Contact}
+B-50, Rajan Babu Road,  Adarsh Nagar, New Delhi-110033
+~
+Mobile no:
++91 8860770996
+~
+Email:-
+swarnikasharma1102@
+gmail.com
+%
+\section{Languages}
+English
+Hindi
+French
+%
+\section{Programming
+   Languages}
+C++
+Java
+Python
+MATLAB
+MySQL
+MongoDB
+Android (Beginner)
+Solidity (Beginner)
+%
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2017--2019}
+{M.Tech {\normalfont in Computer Engineering(7.45 CPI)}}
+{IIIT Hyderabad}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\entry
+{2013--2017}
+{B.Tech {\normalfont in Computer Engineering(86.4 .per)}}
+{Keshav Mahavidyalaya,Delhi University}
+{\vspace{-0.3cm}}
+\entry
+{2013}
+{HSC :- {\normalfont Ryan international school,Delhi(91.2 .per)}}
+{CBSE}{\vspace{-0.3cm}}
+\entry
+{2011}
+{SSC :- {\normalfont Ryan international school,Delhi(9 GPA)}}
+{CBSE}
+{}
+
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	OTHER QUALIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{C++}
+{Design of Digital Currency-Goofy Coin }
+{}
+{Design of a centralized digital currency and maintaining the transaction chain  }
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Solidity}
+{Smart Contract for auction }
+{}
+{A smart contract to conduct an auction within an auctioneer, multiple bidders and multiple notaries.}
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Java}
+{Wikipedia like Search Engine }
+{}
+{A wikipedia like search engine that takes a user query and returns top ten related documents to the user. }
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{C++}
+{File sharing system }
+{}
+{Implemented a repository server which handles the access to central share repository using socket programming}
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Java}
+{Community Radio Executive }
+{}
+{A software to provide features for managing the tasks of a community radio like creating playlists, managing media library, scheduling programs, managing on-air broadcasting media and logging activities.}
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Matlab}
+{Tattoo Image Segmentation And Classification on the Basis of size }
+{}
+{A technique to segment the tattoo region from a tattoo image and thereby annotating the database with  the  size of tattoo.}
+{\vspace{-0.3cm}}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Achievement  SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Achievements}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{}
+{ Academic Award(2018)}
+{ IIIT Hyderabad }
+{\vspace{-0.3cm}}
+
+%------------------------------------------------
+\end{entrylist}
+\begin{entrylist}
+\entry
+{}
+{ Red Scholar(2006-2008) }
+{Ryan International School}
+{\vspace{-0.3cm}}
+
+%------------------------------------------------
+\end{entrylist}
+\begin{entrylist}
+\entry
+{}
+{ Nimble Feet Award for Dance(2008)}
+{Ryan International School}
+{\vspace{-0.3cm}}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Profiles  SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Profiles}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+
+{ https://leetcode.com/swarnika\_1102/ }
+{ Solved 350+ problems }
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\end{entrylist}
+\begin{entrylist}
+\entry
+{}
+{ https://auth.geeksforgeeks.org/user/swarnikasharma/profile }
+{ Solved 100+ problems }
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\end{entrylist}
+\begin{entrylist}
+\entry
+{}
+{ https://github.com/swarnikasharma }
+{}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\end{entrylist}
+\begin{entrylist}
+\entry
+{}
+{ https://www.linkedin.com/in/swarnika-sharma-1102/ }
+{  }
+{\vspace{-0.3cm}}
+
+%------------------------------------------------
+\end{entrylist}
+
+\end{document}
